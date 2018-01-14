@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = SELO77
+    email = rochan87@gmail.com
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+[web]
+    browser = google-chrome

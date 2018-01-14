@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+INITIAL_MAC_PATH=$(pwd)
+INITIAL_MAC_META_PATH=$INITIAL_MAC_PATH/meta
+
+export INITIAL_MAC_PATH
+export INITIAL_MAC_META_PATH
