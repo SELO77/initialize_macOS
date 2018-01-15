@@ -15,6 +15,7 @@
 	* macdown - simple markdown editor
 	* sublime-text
 	* slack
+	* sequle-pro
 	* alfred
 		* load preference
 			* workflow
@@ -25,7 +26,8 @@
 * development environment set up
 	*  bash
 		*  [bash-it](https://github.com/Bash-it/bash-it)
-	*  python dev environment (pyenv, pyenv-virtualenv ...)
+	*  python development environment
+		* pyenv-virutualenv
 	*  git config (account setting, ignore ...)
 
 ### 용어정의 
