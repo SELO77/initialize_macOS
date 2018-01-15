@@ -45,11 +45,11 @@ function install_bash_it {
     echo "== END INSTALL BASH_IT == "
 }
 
-# 2.3 pyenv-virtualenv
+# 2.3 install pyenv-virtualenv and setup it
 function install_pyenv-virtualenv {
     brew install pyenv-virtualenv
-    eval "$(pyenv init -)"
-    eval "$(pyenv virtualenv-init -)"
+    echo 'eval "$(pyenv init -)"' >> .bash_profile
+    echo 'eval "$(pyenv virtualenv-init -)"' >> .bash_profile
 }
 
 
