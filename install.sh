@@ -37,7 +37,10 @@ function install_bash_it {
     echo "== START INSTALL BASH_IT =="
     git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
     ~/.bash_it/install.sh
-    cat meta/shell/alias
+    cat meta/shell/alias >> .bash_profile
+    mv ~/.bash_it/themes/sexy/sexy.theme.bash ~/.bash_it/themes/sexy/_sexy.theme.bash
+    cp meta/bash_it/sexy.theme.bash ~/.bash_it/themes/sexy
+    echo 'export BASH_IT_THEME="sexy"' >> .bash_profile
 
 #    bash-it show aliases
 #    bash-it show completions
@@ -59,4 +62,5 @@ function initialize_mac {
     setup_alfred_preference
     setup_git_config
     install_pyenv-virtualenv
+    install_bash_it
 }
