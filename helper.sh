@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 parse_python_version () {
 	for y in $(python -V)
 	do
@@ -18,6 +17,4 @@ parse_pyenv_venv () {
 	fi
 }
 
-# echo $(parse_python_version)
-# parse_pyenv_venv
-# eval "$(parse_pyenv_venv)"
+alias gss="git status"
